@@ -10,7 +10,7 @@ k.Parent = game.Players.LocalPlayer.PlayerGui
 local main = Instance.new("TextButton")
 main.Parent = k
 main.Size = UDim2.new(0,700,0,500)
-main.Position = UDim2.new(-1,0,0.4)
+main.Position = UDim2.new(-1,0,0)
 main.Active = true
 main.Draggable = true
 main.Text = ""
@@ -85,7 +85,7 @@ otzhim:Play()
 uh:Play()
 uhh:Play()
 end)
-local hi = tw:Create(main,quint,{Position = UDim2.new(0.05,0,0.4)})
+local hi = tw:Create(main,quint,{Position = UDim2.new(0.05,0,0)})
 hi:Play()
 local hii = tw:Create(mg,back,{Rotation = 90})
 hii:Play()
